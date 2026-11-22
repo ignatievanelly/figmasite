@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+    .for {
+        gap: 30px;
+    }
+    .for__item {
+       height: 265px;
+    }
+    .catalog-control__button {
+        position: relative;
+    }
+    .catalog-control__button-filter {
+        position: static;
+    }
+    .filter {
+        right: 0;
+    }
+    .product-content {
+       gap: 29px;
+       display: grid;
+    }
+    .container {
+       display: grid;
+       grid-auto-flow: row;
+    }
+    .footer__title {
+        display: none;
+    }
+}    
